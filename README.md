@@ -3,7 +3,7 @@ Extract insights about customer satisfaction and review subjects from textual re
 
 For inference:
  Kindly use the inference.py file to get outputs on a dataset.
- Set the filename to the data file and put in the input text column name before running the script.
+ Set the filename to the data file and edit the input text column name before running the script.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ABOUT THE WORK
 
@@ -23,3 +23,6 @@ Problems faced:
 
 Alternate approach:
  - Performed a clustering on dimensionally reduced ebeddings of all individual subjects derived from sentences in the reviews, for smaller groups (upto 8) the groups were not insightful for a business with noisy data points. The subject was largely generalised (for ex: subjects talking about dress style clustered together, subjects talking about the dimensions of dress clustered together, some complaining subjects clustered together). The business team will not benefit from summarized insights of subjects without data on the customer satisfaction in the summary. The dimensionality reduction probably resulted in a lot of data loss for the KMeans model to differentiate between subjects at the ground level.
+
+
+Google colab notebook used for the LLM tasks: https://colab.research.google.com/drive/15-2-BpAs0qIMJvSW5LJSRdCweDv-wWi7?usp=sharing
