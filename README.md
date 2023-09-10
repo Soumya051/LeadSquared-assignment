@@ -1,6 +1,13 @@
 # LeadSquared-assignment
 Extract insights about customer satisfaction and review subjects from textual reviews
 
+For inference:
+ Kindly use the inference.py file to get outputs on a dataset.
+ Set the filename to the data file and put in the input text column name before running the script.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ABOUT THE WORK
+
+
 Assumptions:
  - Assuming the business team needs more context of the product's impression on the customers for product development, they will be more concerned to get the subject information and the supporting phrase to determine customer satisfaction for the subject
 
