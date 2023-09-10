@@ -15,7 +15,8 @@ Assumptions:
 Approach:
  - Since the data is not annotated, an unsupervised or semi-supervised approach will be the way to go.
  - We first get the possible subjects from the reviews using spacy for all sentences of a review.
- - We now have all the possible subjects for a review
+ - We now have all the possible subjects for a review.
+ - Since we are expected to give a single subject against every review, we have to choose between the possible subjects it might have and keep the most relevant one.
  - the plan was to then decide the most sentimental subject for the review using an LLM and then  run clustering on dimensinally reduced embeddings of each os those sentimental subjects to get similar subjects grouped together, and we can substitute those subjects by a single cluster subject. THis way the business team will see a small number of subjects, and they can opt to see more details about the review and its sentimental subject if they are interested in the cluster (based on business use-case)
 
 Problems faced:
